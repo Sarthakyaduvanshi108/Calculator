@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #556688;
+}
+.first{
+	border: 2px solid black;
+	width: 350px;
+	height:450px;
+	margin: auto;
+	margin-top: 100px; 
+	background-color: #4477cc;
+}
+.second{
+	border: 2px  solid black;
+	width: 330px;
+	height: 430px;
+	margin-left: 8px;
+	margin-top: 8px;
+	background-color: #9955ff;
+}
+.third{
+	/border: 2px solid red;
+	width: 270px;
+	height: 300px;
+	margin-top: 20px;
+	margin-left: 27px;
+}
+#txt1{
+	margin-left: 38px;
+	width: 246px;
+	height: 40px;
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: teal;
+	color: white;
+	text-align: right;
+}
+input[type=button]{
+	width: 52px;
+	height: 50px;
+	border-radius:10px;
+	margin-left: 10px;
+	margin-top:10px;
+	background-color: solid silver;
+	font-weight: bold;
+	font-size: 20px;
+	box-shadow: 2PX 5PX 3PX;
+}
+p{
+	/border: 2px solid orange;
+	background-color: orange;
+}
+marquee{
+	color: solid red;
+#btne{
+	width: 120px;
+}

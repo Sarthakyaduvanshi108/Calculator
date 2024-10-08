@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculater.css">
+	<script type="text/javascript">
+		 <script src="cl.js"></script>
+</head>
+<body>
+ <form name="frm">
+ <div class="first">
+ <div class="second">
+ <p><b><marquee>calculater</marquee></b></p>
+
+ 	<input type="text" name="txt1" id="txt1">
+ 	<div class="third">
+ 	<input type="button" name="btn7" id="btn" value="7" onclick="frm.txt1.value=frm.txt1.value+ btn7.value">
+ 	<input type="button" name="btn8" id="btn" value="8" onclick="frm.txt1.value=frm.txt1.value+ btn8.value">
+ 	<input type="button" name="btn9" id="btn" value="9" onclick="frm.txt1.value=frm.txt1.value+ btn9.value">
+ 	<input type="button" name="btnp" id="btn" value="+" onclick="frm.txt1.value=frm.txt1.value+ btnp.value"><br>
+
+ 	<input type="button" name="btn4" id="btn" value="4" onclick="frm.txt1.value=frm.txt1.value+ btn4.value">
+ 	<input type="button" name="btn5" id="btn" value="5" onclick="frm.txt1.value=frm.txt1.value+ btn5.value">
+ 	<input type="button" name="btn6" id="btn" value="6" onclick="frm.txt1.value=frm.txt1.value+ btn6.value">
+ 	<input type="button" name="btnm" id="btnm" value="-" onclick="frm.txt1.value=frm.txt1.value+ btnm.value"><br>
+
+ 	<input type="button" name="btn1" id="btn" value="1" onclick="frm.txt1.value=frm.txt1.value+ btn1.value">
+	<input type="button" name="btn2" id="btn" value="2" onclick="frm.txt1.value=frm.txt1.value+ btn2.value">
+	<input type="button" name="btn3" id="btn" value="3" onclick="frm.txt1.value=frm.txt1.value+ btn3.value"> 
+	<input type="button" name="btnmlt" id="btnmlt" value="*" onclick="frm.txt1.value=frm.txt1.value+ btnmlt.value"><br>
+
+	<input type="button" name="btn0" id="btn" value="0" onclick="frm.txt1.value=frm.txt1.value+ btn0.value">
+	<input type="button" name="btnc" id="btn" value="AC" onclick="frm.txt1.value=''">
+	<input type="button" name="btngt" id="btngt" value="/" onclick="frm.txt1.value=frm.txt1.value+ btngt.value">
+	<input type="button" name="btne" id="btne" value="=" onclick="frm.txt1.value=eval(frm.txt1.value)" >	
+	
+ 	</div>
+ </div>
+ </form>
+</body>
+</html>
